@@ -35,4 +35,4 @@ const server = Bun.serve({
     
 })
 
-console.log(`Listening on PORT ${server.port}`)
+console.log(`Listening on PORT ${server.portx}`)
