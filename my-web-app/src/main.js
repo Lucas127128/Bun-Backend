@@ -22,6 +22,8 @@ document.querySelector('#app').innerHTML = `
 `
 
 setupCounter(document.querySelector('#counter'))
-for(let i; i=0 ; i > 1000){
+for(let i=0; i < 6; i++){
   document.querySelector('#counter').click()
+  console.log(i);
+  console.log("hello")
 }
